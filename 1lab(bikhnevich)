@@ -4,18 +4,16 @@ class MainClass
 {
 	static void Main()
 	{
-
-		int a;
-		int b;
-		int c;
-
-		a = 30;
-		b = 3;
-
-		c = a / b;
-
-		Console.WriteLine("Результат частного: c = " + c);
+		int a=7845, b=74;
+		double c;
+		c = Divide (a,b);
+		Console.WriteLine(" Частное равняется = " + c);
 		Console.ReadLine();
 	}
-	
+
+	private static double Divide(int a, int b)
+	{
+		return (double)a/b;
+	}
 }
+
