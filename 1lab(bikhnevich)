@@ -1,0 +1,21 @@
+using System;
+
+class MainClass
+{
+	static void Main()
+	{
+
+		int a;
+		int b;
+		int c;
+
+		a = 30;
+		b = 3;
+
+		c = a / b;
+
+		Console.WriteLine("Результат частного: c = " + c);
+		Console.ReadLine();
+	}
+	
+}
